@@ -5,16 +5,16 @@ function App() {
   return (
     <div className="min-h-screen flex flex-wrap gap-6 items-center justify-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6">
       <ProfileCard
-        name="萌恵ちゃん"
+        name="neko"
         role="React 初心者"
         imgUrl="https://placebear.com/200/200"
         hobby='卓球'
       />
       <ProfileCard
-        name="みぞうえ秀明"
+        name='jacob'
         role="Tailwind 大好き"
         imgUrl="https://placedog.net/200/200"
-        hobby='悲しい'
+        hobby='sad'
       />
       <ProfileCard
         name="パンダ先輩"
