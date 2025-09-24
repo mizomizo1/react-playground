@@ -2,7 +2,7 @@
 export default function ProfileCard({ name, role, imgUrl,hobby }) {
   return (
     <div className="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden">
-      {/* ヘッダー背景 */}
+      {/*ヘッダー背景 */}
       <div className="bg-gradient-to-r from-indigo-500 to-purple-500 h-24"></div>
 
       {/* 本体 */}
