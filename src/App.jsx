@@ -1,8 +1,11 @@
 // src/App.jsx
 import ProfileCard from "./components/ProfileCard";
+import Hero from "./components/Hero";
 
 function App() {
   return (
+    <>
+    <Hero/>
     <div className="min-h-screen flex flex-wrap gap-6 items-center justify-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6">
       <ProfileCard
         name="neko"
@@ -20,9 +23,9 @@ function App() {
         name="パンダ先輩"
         role="UI デザイナー"
         imgUrl="https://placebear.com/200/200"
-      />
-
+        />
     </div>
+    </>
   );
 }
 
