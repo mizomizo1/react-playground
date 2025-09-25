@@ -3,6 +3,7 @@ import ProfileCard from "./components/ProfileCard";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import SimpleAlert from "./components/alert";
+import IconButtonColors from "./components/loading";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <SimpleAlert />
     <Header />
     <Hero main_thema={'GenomeDataManager'} detail={'Here is GenomeDataManager'}/>
+    <IconButtonColors />
     <div className="min-h-screen flex flex-wrap gap-6 items-center justify-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6">
       <ProfileCard
         name="neko"
