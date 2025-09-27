@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import SimpleAlert from "./components/alert";
 import Card from "./components/outlined_card";
+import Button from "./components/button";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Card variant="outlined">{Card}</Card>
     <Card variant="outlined">{Card}</Card>
     <Card variant="outlined">{Card}</Card>   
+    <Button />
     </>
   );
 }
